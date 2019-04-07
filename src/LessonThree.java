@@ -21,6 +21,7 @@ public class LessonThree {
             }
         }
         System.out.println(Arrays.toString(myArr));
+        //массив в столбик
         System.out.println(" ");
         System.out.println(" ");
         System.out.println("Задание 2");
@@ -42,6 +43,13 @@ public class LessonThree {
             }
         }
         System.out.println(Arrays.toString(myArr2));
+        //массив в столбик
+        System.out.println("Задание 3");
+        System.out.println(" ");
+        System.out.println("Создайте массив из 15 случайных целых чисел из отрезка [0;9]. Выведите массив на экран. " +
+                "Подсчитайте сколько в массиве чётных элементов и выведете это количество на экран на отдельной строке.");
+        System.out.println(" ");
+        System.out.println("Решение:");
+        System.out.println(" ");
     }
 }
-//gitcheck
