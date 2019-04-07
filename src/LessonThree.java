@@ -11,8 +11,7 @@ public class LessonThree {
         System.out.println(" ");
         int arrsize = 0;
         for (int i = 2; i <= 20; i++) {
-            if (i % 2 == 0) ;
-            arrsize++;
+            if (i % 2 == 0) arrsize++;
         }
         int[] myArr = new int[arrsize];
         for (int i = 2, x = 0; i <= 20; i++) {
@@ -20,7 +19,7 @@ public class LessonThree {
                 myArr[x] = i;
                 x++;
             }
-            System.out.println(Arrays.toString(myArr));
         }
+        System.out.println(Arrays.toString(myArr));
     }
 }
