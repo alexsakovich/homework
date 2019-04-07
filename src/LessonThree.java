@@ -21,6 +21,27 @@ public class LessonThree {
             }
         }
         System.out.println(Arrays.toString(myArr));
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println("Задание 2");
+        System.out.println(" ");
+        System.out.println("Создайте массив из всех нечётных чисел от 1 до 99, выведите его на экран в строку, " +
+                "а затем этот же массив выведите на экран тоже в строку, но в обратном порядке (99 97 95 93 … 7 5 3 1).");
+        System.out.println(" ");
+        System.out.println("Решение:");
+        System.out.println(" ");
+        int arrsize2 = 0;
+        for (int i = 1; i <= 99; i++) {
+            if (i % 2 != 0) arrsize2++;
+        }
+        int[] myArr2 = new int[arrsize2];
+        for (int i = 1, x = 0; i <= 99; i++) {
+            if (i % 2 != 0) {
+                myArr2[x] = i;
+                x++;
+            }
+        }
+        System.out.println(Arrays.toString(myArr2));
     }
 }
 //gitcheck
