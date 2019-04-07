@@ -23,3 +23,4 @@ public class LessonThree {
         System.out.println(Arrays.toString(myArr));
     }
 }
+//gitcheck
