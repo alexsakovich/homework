@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Random;
 
 public class LessonThree {
     public static void main(String[] args) {
@@ -58,7 +59,16 @@ public class LessonThree {
         System.out.println(" ");
         System.out.println("Решение:");
         System.out.println(" ");
-        int[] myArr3 = new int [15];
+        int[] myArr3 = new int[15];
+        int evennumber = 0;
+        for (int i = 0; i < myArr3.length; i++) {
+            Random x = new Random();
+            myArr3[i] = x.nextInt(10);
+            if (myArr3[i] > 0 && myArr3[i] % 2 == 0)
+                evennumber++;
+        }
+        System.out.println("Все элементы массива: " + Arrays.toString(myArr3));
+        System.out.println("Всего в массиве " + evennumber + " четных элементов.");
 
 
     }
