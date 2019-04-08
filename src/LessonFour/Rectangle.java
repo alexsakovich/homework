@@ -1,7 +1,7 @@
 package LessonFour;
 
 class Rectangle {
-   private double length, width;
+    private double length, width;
 
     public double getLength() {
         return length;
@@ -18,10 +18,12 @@ class Rectangle {
     public void setWidth(double width) {
         this.width = width;
     }
-    void square () {
+
+    void area() {
         System.out.println("Площадь прямоугольника: " + length * width);
     }
-    void perimeter () {
+
+    void perimeter() {
         System.out.println("Периметр прямоугольника: " + (length + width) * 2);
     }
 }
