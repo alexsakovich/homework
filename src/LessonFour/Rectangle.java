@@ -19,11 +19,13 @@ class Rectangle {
         this.width = width;
     }
 
-    void area() {
-        System.out.println("Площадь прямоугольника: " + length * width);
+    double area() {
+        double area = length * width;
+        return area;
     }
 
-    void perimeter() {
-        System.out.println("Периметр прямоугольника: " + (length + width) * 2);
+    double perimeter() {
+        double perimeter = (length + width) * 2;
+        return perimeter;
     }
 }

@@ -34,7 +34,7 @@ public class Triangle {
     }
 
     void perimeter() {
-        double perimetr = a + b+ c;
-        System.out.println("Периметр треугольника: " + perimetr);
+        double perimeter = a + b+ c;
+        System.out.println("Периметр треугольника: " + perimeter);
     }
 }

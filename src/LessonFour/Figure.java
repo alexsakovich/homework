@@ -20,8 +20,10 @@ public class Figure {
                 rectangle1.setLength(in.nextDouble());
                 System.out.println("Введите ширину");
                 rectangle1.setWidth(in.nextDouble());
-                rectangle1.area();
-                rectangle1.perimeter();
+                double rectangle1area = rectangle1.area();
+                System.out.println("Площадь прямоугольника " + rectangle1area);
+                double rectangle1perimeter = rectangle1.perimeter();
+                System.out.println("Периметр прямоугольника " + rectangle1perimeter);
                 break;
             case '2':
                 Triangle triangle1 = new Triangle();
@@ -31,12 +33,12 @@ public class Figure {
                 triangle1.setB(in.nextDouble());
                 System.out.println("Введите сторону 3");
                 triangle1.setC(in.nextDouble());
-                double trianglearea1 = triangle1.area();
-                System.out.println("Площадь треугольника " + trianglearea1);
+                double triangle1area = triangle1.area();
+                System.out.println("Площадь треугольника " + triangle1area);
                 triangle1.perimeter();
                 break;
-                default:
-                    System.out.println("Фигура не выбрана");
+            default:
+                System.out.println("Фигура не выбрана");
         }
     }
 }
