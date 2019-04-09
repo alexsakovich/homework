@@ -33,8 +33,8 @@ public class Triangle {
         return trianglearea;
     }
 
-    void perimeter() {
+    double perimeter() {
         double perimeter = a + b+ c;
-        System.out.println("Периметр треугольника: " + perimeter);
+        return + perimeter;
     }
 }

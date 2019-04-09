@@ -10,6 +10,7 @@ public class Figure {
         System.out.println("Выберите фигуру:");
         System.out.println("1. Прямоугольник");
         System.out.println("2. Треугольник");
+        System.out.println("3. Круг");
 
         choice = (char) System.in.read();
 
@@ -36,6 +37,12 @@ public class Figure {
                 double triangle1area = triangle1.area();
                 System.out.println("Площадь треугольника " + triangle1area);
                 triangle1.perimeter();
+                break;
+            case '3':
+                Circle circle1 = new Circle();
+                System.out.println("Введите радиус");
+                circle1.setRadius(in.nextDouble());
+                System.out.println("Периметр кргуа " + circle1.perimeter());
                 break;
             default:
                 System.out.println("Фигура не выбрана");
