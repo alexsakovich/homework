@@ -1,4 +1,4 @@
-package LessonFourAnimals;
+package lessonFourAnimals;
 
 import java.util.Scanner;
 

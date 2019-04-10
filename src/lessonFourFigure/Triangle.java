@@ -1,4 +1,4 @@
-package LessonFourFigure;
+package lessonFourFigure;
 
 public class Triangle {
     private double a, b, c;

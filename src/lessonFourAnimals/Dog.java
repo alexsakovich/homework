@@ -1,4 +1,4 @@
-package LessonFourAnimals;
+package lessonFourAnimals;
 
 public class Dog {
     private String name = "неизвестно";

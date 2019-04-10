@@ -1,4 +1,4 @@
-package LessonFourFigure;
+package lessonFourFigure;
 
 class Rectangle {
     private double length, width;

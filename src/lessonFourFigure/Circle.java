@@ -1,4 +1,4 @@
-package LessonFourFigure;
+package lessonFourFigure;
 
 public class Circle {
     private double radius;

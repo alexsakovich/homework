@@ -1,4 +1,4 @@
-package LessonFourFigure;
+package lessonFourFigure;
 
 import java.util.Scanner;
 
