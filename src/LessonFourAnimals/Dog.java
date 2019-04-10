@@ -1,11 +1,11 @@
 package LessonFourAnimals;
 
-class Dog {
-    private String name = "null";
-    private int weight = 10;
+public class Dog {
+    private String name = "неизвестно";
+    private int weight = 5;
     private int age = 1;
-    private String color;
-    private String address = null;
+    private String color = "неизвестен";
+    private String address = "неизвестен";
 
     public Dog(String name) {
         this.name = name;
@@ -20,6 +20,11 @@ class Dog {
     public Dog(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    public Dog(int weight, String color) {
+        this.weight = weight;
+        this.color = color;
     }
 
     public Dog(int weight, String color, String address) {
@@ -67,4 +72,10 @@ class Dog {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    void myDog() {
+        System.out.println("Имя Вашей собаки " + name + ", она весит " + weight + " кг." + " и ее возраст составляет " + age
+                + " год (года/лет). Цвет собаки: " + color + ". Адрес проживания собаки: " + address + ".");
+    }
+
 }
