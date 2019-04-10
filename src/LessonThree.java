@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 public class LessonThree {
     public static void main(String[] args) {
@@ -83,5 +84,9 @@ public class LessonThree {
         System.out.println(" ");
         System.out.println("Решение:");
         System.out.println(" ");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите строку для обработки:");
+        StringBuilder firstString = new StringBuilder(scanner.next());
+
     }
 }
