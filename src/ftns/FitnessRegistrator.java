@@ -11,3 +11,4 @@ public class FitnessRegistrator {
     private ArrayList<Human> inPool = new ArrayList<>();
     private ArrayList<Human> Group = new ArrayList();
 }
+
